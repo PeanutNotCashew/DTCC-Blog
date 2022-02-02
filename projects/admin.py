@@ -9,4 +9,5 @@ class ProjectAdmin(admin.ModelAdmin):
 
 admin.site.register(Project, ProjectAdmin)
 
-#note that error stems from "/img" reference models.py - projects
+#note that error stems from "/img"
+#reference /projects/models.py
